@@ -42,7 +42,7 @@ The model is built using a sequential architecture designed for spatial feature 
 ## 👨‍💻 Author
 Vansh Aggarwal B.Tech CSE Student
 
-📧 Email Me: vansh27102005@gmail.com| 🔗 LinkedIn : https://www.linkedin.com/in/vanshaggarwal27/ 
+📧 Email Me: vansh27102005@gmail.com | 🔗 LinkedIn : https://www.linkedin.com/in/vanshaggarwal27/ 
 
 ---
 
