@@ -37,13 +37,16 @@ The model is built using a sequential architecture designed for spatial feature 
 * **Data Science:** NumPy, Matplotlib, Scikit-learn
 * **Computer Vision:** OpenCV
 
----👨‍💻 Author
+---
+
+## 👨‍💻 Author
 Vansh Aggarwal B.Tech CSE Student
 
-📧 Email Me | 🔗 LinkedIn
+📧 Email Me: vansh27102005@gmail.com| 🔗 LinkedIn : https://www.linkedin.com/in/vanshaggarwal27/ 
 
-📜 License
+---
+
+## 📜 License
 This project is open-source and available under the MIT License.
 
-## 🚀 Implementation Code
 
