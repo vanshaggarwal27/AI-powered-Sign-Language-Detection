@@ -1,56 +1,49 @@
 # 🤟 American Sign Language (ASL) Image Classification using CNN
 
-This project implements a **Convolutional Neural Network (CNN)** to classify **American Sign Language (ASL) hand gesture images** into their respective alphabet classes. The model is built and trained using deep learning techniques to recognize hand signs from images accurately.
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project implements a **Convolutional Neural Network (CNN)** to classify **American Sign Language (ASL) hand gesture images** into their respective alphabet classes (A-Z).
 
 ---
 
 ## 📌 Project Overview
+ASL is a vital communication method for the deaf and hard-of-hearing community. This project aims to automate the recognition of hand signs using deep learning.
 
-American Sign Language (ASL) is a vital communication method for the deaf and hard-of-hearing community. This project aims to automate ASL alphabet recognition using computer vision and deep learning.
+The pipeline includes:
+- **Image Preprocessing:** Grayscale conversion and normalization.
+- **Data Augmentation:** Real-time transformations to prevent overfitting.
+- **CNN Training:** Feature extraction using deep convolutional layers.
+- **Evaluation:** Analyzing performance via accuracy/loss curves.
 
-The project covers the complete ML pipeline:
-- Image preprocessing
-- CNN model building
-- Training and validation
-- Model evaluation
-- Prediction on unseen images
+
 
 ---
 
 ## 🧠 Model Architecture
-
-The CNN model consists of:
-- Convolutional (Conv2D) layers for feature extraction  
-- Batch Normalization for faster convergence  
-- MaxPooling layers to reduce spatial dimensions  
-- Dropout layers to prevent overfitting  
-- Fully Connected (Dense) layers for classification  
-
----
-
-## 📂 Dataset
-
-- The dataset contains labeled images of **ASL alphabet hand signs**
-- Each class represents a letter of the English alphabet
-- Images are resized and normalized before training
-
-> Dataset Source: Public ASL image dataset (e.g., Kaggle)
+The model is built using a sequential architecture designed for spatial feature extraction:
+* **Convolutional Layers:** 3 blocks of Conv2D for identifying edges and shapes.
+* **Batch Normalization:** Applied after each conv layer for faster convergence.
+* **MaxPooling:** Reduces the spatial dimensions of the data.
+* **Dropout (0.5):** Ensures the model generalizes well to unseen images.
+* **Softmax Output:** Classifies the input into one of the 26/29 alphabet categories.
 
 ---
 
 ## ⚙️ Tech Stack
+* **Language:** Python
+* **Deep Learning:** TensorFlow / Keras
+* **Data Science:** NumPy, Matplotlib, Scikit-learn
+* **Computer Vision:** OpenCV
 
-- **Python**
-- **TensorFlow / Keras**
-- **NumPy**
-- **Matplotlib**
-- **OpenCV**
-- **Jupyter Notebook**
+---👨‍💻 Author
+Vansh Aggarwal B.Tech CSE Student
 
----
+📧 Email Me | 🔗 LinkedIn
 
-## 🚀 How to Run the Project
+📜 License
+This project is open-source and available under the MIT License.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/asl-cnn-classifier.git
+## 🚀 Implementation Code
+
